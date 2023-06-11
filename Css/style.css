@@ -71,7 +71,7 @@ section{
 	height: 100vh;
 	width: 100%;
 	position: relative;
-	background: url(../assets/dev.jpg);
+	background: url(../images/dev.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -328,7 +328,7 @@ margin-left: -5rem;
 
 .row-5:hover{
 	padding: 50px;
-	background-image: url(../assets/recorder.jpg);
+	background-image: url(../images/recorder.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
@@ -337,7 +337,7 @@ margin-left: -5rem;
 }
 .row-6:hover{
 	padding: 50px;
-	background-image: url(../assets/to-do.jpg);
+	background-image: url(../images/to-do.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
@@ -347,7 +347,7 @@ margin-left: -5rem;
 
 .row-7:hover{
 	padding: 50px;
-	background-image: url(../assets/wakanda.jpg);
+	background-image: url(../images/wakanda.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
@@ -384,7 +384,7 @@ margin-left: -5rem;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 3rem;
-	background: url(../assets/mop.webp);
+	background: url(../images/mop.webp);
 }
 .contact-text h4{
 	margin: 15px 0;
