@@ -264,7 +264,7 @@ margin-left: -5rem;
 	
 }
 .portfolio{
-	background: url(../assets/bg.jpg);
+	background: url(../images/bg.jpg);
 }
 .row img{
 	height: auto;
@@ -274,7 +274,7 @@ margin-left: -5rem;
 }
 .row-1:hover{
 	padding: 50px;
-	background-image: url(../assets/food.jpg);
+	background-image: url(../images/food.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
