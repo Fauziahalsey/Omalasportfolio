@@ -1,5 +1,5 @@
 # 
-# **Omalasportfoliot**
+# **Omalasportfolio**
 ### **By Fauzia Omala**
 
 ## **Table of Content**
