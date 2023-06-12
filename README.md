@@ -27,7 +27,8 @@ This is the last group project website in I&M Pre-prep Course.The website is an 
 ### **Setup Process**
 ---
 #### **Started with creating a sketch then followed by creating the UI design**
-![plot](./images/our%20landing%20page.png)
+!![sketchy](https://github.com/Fauziahalsey/Omalasportfolio/assets/113023645/2051632a-86c2-4b60-8a2c-964ef042e1e2)
+
 # **Github Pages**
 * Using Git and Github
 * Inserting git
