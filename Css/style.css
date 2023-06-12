@@ -21,6 +21,7 @@
 body{
 	background: var(--bg-color);
 	color: var(--text-color);
+    cursor: progress; 
 }
 header{
 	position: fixed;
@@ -60,7 +61,8 @@ header{
 	font-size: 36px;
 	color: var(--text-color);
 	z-index: 10001;
-	cursor: pointer;
+	 cursor: pointer; 
+	 
 	display: none;
 }
 
@@ -110,7 +112,12 @@ header.sticky{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 2rem;
-	background: rgb(53, 47, 47);
+	background-image: url(../images/dark.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.glow {
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
 }
 .about-text h4{
 	margin: 10px 0;
@@ -136,7 +143,8 @@ header.sticky{
 	max-width: 460px;
 	animation: bounce 1.5s infinite;
 	transition: 4s;
-	/* filter: 100%; */
+	 filter: 100%; 
+	 margin-left: 4rem;
 	
 	border-radius: 15%;
    
@@ -159,11 +167,13 @@ header.sticky{
 .main-text h2{
 	font-size: var(--h2-font);
 	margin-bottom: 10px;
+	margin-left: 22rem;
 }
 .main-text h4{
 	color: var(--main-color);
 	font-size: 24px;
 	font-weight: 600;
+	margin-left: 22rem;
 }
 .services-content{
 	display: grid;
@@ -188,11 +198,12 @@ header.sticky{
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 	cursor: pointer;
+	border: 2px solid whitesmoke;
 	
 	
 }
 .box1 img{
-width: 23rem;
+width: 20rem;
 animation: bounce 1.5s infinite;
 transition: 1s;
 transform-style: preserve-3d;
@@ -200,17 +211,18 @@ margin-left: -5rem;
 }
 
 .box2{
-	padding: 42px;
+	padding: 44px;
 	background: #12141c;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 	cursor: pointer;
+	border: 2px solid whitesmoke;
 	
 }
 
 .box2 img{
-	width: 23rem;	
+	width: 20rem;	
 	animation: bounce 1.5s infinite;
     transition: 1s;
     transform-style: preserve-3d;
@@ -223,11 +235,12 @@ margin-left: -5rem;
 		border-radius: 0.5rem;
 		transition: all .40s ease;
 		cursor: pointer;
+		border: 2px solid whitesmoke;
 
 		
 	}
 	.box3 img{
-		width: 23rem;
+		width: 21rem;
 		animation: bounce 1.5s infinite;
 		transition: 1s;
 		transform-style: preserve-3d;
@@ -262,7 +275,7 @@ margin-left: -5rem;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 	cursor: pointer;
-
+    border: 2px solid whitesmoke;
 	
 }
 .box4 img{
@@ -294,7 +307,42 @@ border-top: 5px solid var(--main-color);
 color: var(--main-color);
 }
 
+.box5{
+	padding: 105px;
+	background: #12141c;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+	border: 2px solid whitesmoke;
+	
+}
+.box5 img{
+width: 23rem;
+animation: bounce 1.5s infinite;
+transition: 1s;
+transform-style: preserve-3d;
+margin-left: -5rem;	
+}
 
+/*  */
+.box6{
+	padding: 105px;
+	background: #12141c;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+	border: 2px solid whitesmoke;
+	
+}
+.box6 img{
+width: 23rem;
+animation: bounce 1.5s infinite;
+transition: 1s;
+transform-style: preserve-3d;
+margin-left: -5rem;	
+}
 .portfolio-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));

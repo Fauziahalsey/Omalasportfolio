@@ -27,3 +27,13 @@ const sr = ScrollReveal ({
 sr.reveal('.home-text',{delay:190, origin:'bottom'})
 
 sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
+// First, get a reference to the image.
+const image = document.querySelector('img');
+
+// Then, define a function that toggles a "glow" CSS class.
+function toggleGlow() {
+  image.classList.toggle('glow');
+}
+
+// Finally, add an event listener that toggles the class when the image is clicked.
+image.addEventListener('click', toggleGlow);
