@@ -136,9 +136,9 @@ header.sticky{
 	max-width: 460px;
 	animation: bounce 1.5s infinite;
 	transition: 4s;
-	filter: 100%;
+	/* filter: 100%; */
 	
-	border-radius: 100%;
+	border-radius: 15%;
    
 	   }
 	 @keyframes bounce{
